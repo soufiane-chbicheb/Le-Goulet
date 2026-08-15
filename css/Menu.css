@@ -1,0 +1,39 @@
+.ok{
+    text-align: center;
+    
+}
+body{
+    background-color: rgb(26, 26, 26); color: white;
+}
+
+.one{
+    display: flex;
+    justify-content: space-between; 
+}
+.yep{
+    width: 30%; padding: 20px;
+}
+
+hr{
+    border: 3px solid #b59d4f ;
+    width: 10%;
+    margin: 0;
+}
+.first{
+    display: flex;
+}
+.second{
+    margin-left: 400px;
+}
+.h{
+    margin-left: 20px; margin-top: 50px;
+    
+
+}
+.uno{
+    display: flex;
+    
+}
+.inche{
+    display: flex;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Le Goulet Offers</title>
+    <style>
+        header {
+            background-color: #b59d4f;
+            text-align: center;
+            color: #ffffff;
+            padding: 1rem 0;
+            font-size: 1.5rem;
+           
+        }
+
+        body {
+            background-image:url(prix/background.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        .packages {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 2rem auto;
+            max-width: 1200px;
+            gap: 1rem;
+            
+        }
+
+        .package {
+            background-color:#ffffff;
+            border: 2px solid #b59d4f;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: center;
+            width: 300px;
+            transition:  0.5s ease;
+            
+        }
+
+        .package:hover {
+            transform: translateY(-10px);
+            background-color: #b59d4f;
+        }
+
+        h2 {
+            color: black;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin: 0.5rem 0;
+        }
+
+        .old-price {
+            color: #888;
+            text-decoration: line-through;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #2c2c2c;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #b59d4f;
+            color: #ffffff;
+            margin-top: 2rem;
+        }
+
+        img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Le Goulet</h1>
+    </header>
+
+    <section class="packages">
+        <div class="package">
+            <img src="prix/tajine.jpeg" alt="Chicken Tagine">
+            <h2>PACK of 3 members</h2>
+            <p>Chicken Tagine</p>
+            <p>Chicken Tagine + Moroccan Salad + bread</p>
+            <p class="old-price">Original Price: <del>50 DH</del></p>
+            <span class="price">promotion price: 30 DH</span>
+        </div>
+
+        <div class="package">
+            <img src="prix/couscous.jpeg" alt="Vegetable Couscous">
+            <h2>PACK of 4 members</h2>
+            <p>Vegetable Couscous</p>
+            <p>couscous with vegetables + harira soup + Moroccan Mint tea</p>
+            <p class="old-price">Original Price: <del>100 DH</del></p>
+            <span class="price">promotion price: 80 DH</span>
+        </div>
+
+        <div class="package">
+            <img src="prix/desserts.jpeg" alt="Moroccan Desserts">
+            <h2>PACK of 5 members</h2>
+            <p>Mixed</p>
+            <p>Chicken couscous + Moroccan Salad + harira soup + Moroccan desserts</p>
+            <p class="old-price">Original Price: <del>200 DH</del></p>
+            <span class="price">promotion price: 150 DH</span>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Le Goulet. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
