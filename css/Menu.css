@@ -23,7 +23,10 @@ hr{
     display: flex;
 }
 .second{
-    margin-left: 400px;
+    margin-left: 0px;
+    size: 3px;
+    width: 3px;
+
 }
 .h{
     margin-left: 20px; margin-top: 50px;

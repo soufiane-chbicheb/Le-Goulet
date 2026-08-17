@@ -1,4 +1,4 @@
-/* montassir elabbassi */
+/* soufiane chbicheb */
 /* initial */
 :root{
     --MainColor:#ffffff;
@@ -145,7 +145,7 @@ header ul a li:focus{
     height: 700px;
     background-color: var(--SecondColor);
     margin-top: 100px;
-    mask-image: url(../imgs/Ink_effect.gif);
+    mask-image: url(../imgs/menu/Ink_effect.gif);
     mask-size:cover;
     mask-position: center;
     mask-repeat: repeat;
@@ -154,7 +154,7 @@ header ul a li:focus{
 }
 .bienvenue::before {
     content: "";
-    background-image: url(../imgs/bg-hero.jpg);
+    background-image: url(../imgs/menu/home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
